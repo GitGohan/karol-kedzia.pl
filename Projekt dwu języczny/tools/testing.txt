@@ -1,0 +1,5 @@
+Testowanie oprogramowania zawsze kojarzy³o mi siê z jedn¹ z najwa¿niejszych i najciekawszych czêœci ca³ego procesu tworzenia oprogramowania. Moja wrodzona ciekawoœæ i dociekliwoœæ sprawia³y, ¿e ju¿ jako nastolatek lubi³em wyszukiwaæ b³êdy w programach, aplikacjach i systemach. Te umiejêtnoœci przydaj¹ mi siê równie¿ w obecnej pracy zawodowej. Jestem perfekcjonist¹, dlatego wiem ¿e nigdy nie da siê znaleŸæ wszystkich b³êdów w oprogramowaniu, ale to nie znaczy ¿e nale¿y szukaæ.
+
+Jestem certyfikowanym testerem oprogramowania wedle certyfikacji ISTQB. Posiadam certyfikat ISTQB Fundation Level który uzyska³em w 2015 roku. W celu zwiêkszenia swojej wiedzy i kompetencji zawodowych w testowaniu oprogramowania, na pocz¹tku 2016 roku przeszed³em kurs z automatyzacji testów w jednym z najpopularniejszych programów tego typu Selenium z bibliotek¹ WebDriver. Testy automatyzujê za pomoc¹ jêzyka skryptowego Python. 
+
+Mimo, i¿ nie posiadam doœwiadczenia komercyjnego w testowaniu oprogramowania staram siê rozwijaæ swoj¹ wiedz¹ i liczê ¿e bêdzie mi dane wykorzystaæ j¹ w swojej przysz³ej pracy.
