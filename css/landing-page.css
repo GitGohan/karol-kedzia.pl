@@ -1,0 +1,908 @@
+/*!
+ * Start Bootstrap - Landing Page Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+}
+
+.topnav {
+    font-size: 14px; 
+}
+
+.lead {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.intro-header {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../img/intro-bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.intro-message {
+    position: relative;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.intro-message > h1 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 5em;
+}
+
+.intro-divider {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.intro-message > h3 {
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+@media(max-width:767px) {
+    .intro-message {
+        padding-bottom: 15%;
+    }
+
+    .intro-message > h1 {
+        font-size: 3em;
+    }
+
+    ul.intro-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.intro-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+
+    .intro-divider {
+        width: 100%;
+    }
+}
+
+.network-name {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.content-section-a {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+.content-section-b {
+
+    padding: 50px 0;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.section-heading {
+  position: relative;
+  text-align: left;
+   margin-bottom: 30px;
+
+}
+
+.section-heading-spacer {
+    float: left;
+    width: 200px;
+    border-top: 3px solid #e7e7e7;
+}
+
+.banner {
+    padding: 100px 0;
+    color: #f8f8f8;
+    background: url(../img/banner-bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 3em;
+}
+
+.banner ul {
+    margin-bottom: 0;
+}
+
+.banner-social-buttons {
+    float: right;
+    margin-top: 0;
+}
+
+@media(max-width:1199px) {
+    ul.banner-social-buttons {
+        float: left;
+        margin-top: 15px;
+    }
+}
+
+@media(max-width:767px) {
+    .banner h2 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        font-size: 3em;
+    }
+
+    ul.banner-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.banner-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+}
+
+footer {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+p.copyright {
+    margin: 15px 0 0;
+}
+
+
+
+/*>>>>>>>>>>>>>>>>>>>>START OF TIMLINE BOX>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+.timeline {
+    list-style: none;
+    padding: 20px 0 20px;
+    position: relative;
+}
+
+    .timeline:before {
+        top: 0;
+        bottom: 0;
+        position: absolute;
+        content: " ";
+        width: 3px;
+        background-color: #eeeeee;
+        left: 50%;
+        margin-left: -1.5px;
+    }
+
+    .timeline > li {
+        margin-bottom: 20px;
+        position: relative;
+    }
+
+        .timeline > li:before,
+        .timeline > li:after {
+            content: " ";
+            display: table;
+        }
+
+        .timeline > li:after {
+            clear: both;
+        }
+
+        .timeline > li:before,
+        .timeline > li:after {
+            content: " ";
+            display: table;
+        }
+
+        .timeline > li:after {
+            clear: both;
+        }
+
+        .timeline > li > .timeline-panel {
+            width: 46%;
+            float: left;
+            border: 1px solid #d4d4d4;
+            border-radius: 2px;
+            padding: 20px;
+            position: relative;
+            -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+            box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+        }
+
+            .timeline > li > .timeline-panel:before {
+                position: absolute;
+                top: 26px;
+                right: -15px;
+                display: inline-block;
+                border-top: 15px solid transparent;
+                border-left: 15px solid #ccc;
+                border-right: 0 solid #ccc;
+                border-bottom: 15px solid transparent;
+                content: " ";
+            }
+
+            .timeline > li > .timeline-panel:after {
+                position: absolute;
+                top: 27px;
+                right: -14px;
+                display: inline-block;
+                border-top: 14px solid transparent;
+                border-left: 14px solid #fff;
+                border-right: 0 solid #fff;
+                border-bottom: 14px solid transparent;
+                content: " ";
+            }
+
+        .timeline > li > .timeline-badge {
+            color: #fff;
+            width: 50px;
+            height: 50px;
+            line-height: 50px;
+            font-size: 1.4em;
+            text-align: center;
+            position: absolute;
+            top: 16px;
+            left: 50%;
+            margin-left: -25px;
+            background-color: #999999;
+            z-index: 100;
+            border-top-right-radius: 50%;
+            border-top-left-radius: 50%;
+            border-bottom-right-radius: 50%;
+            border-bottom-left-radius: 50%;
+        }
+
+        .timeline > li.timeline-inverted > .timeline-panel {
+            float: right;
+        }
+
+            .timeline > li.timeline-inverted > .timeline-panel:before {
+                border-left-width: 0;
+                border-right-width: 15px;
+                left: -15px;
+                right: auto;
+            }
+
+            .timeline > li.timeline-inverted > .timeline-panel:after {
+                border-left-width: 0;
+                border-right-width: 14px;
+                left: -14px;
+                right: auto;
+            }
+
+.timeline-badge.primary {
+    background-color: #2e6da4 !important;
+}
+
+.timeline-badge.success {
+    background-color: #3f903f !important;
+}
+
+.timeline-badge.warning {
+    background-color: #f0ad4e !important;
+}
+
+.timeline-badge.danger {
+    background-color: #d9534f !important;
+}
+
+.timeline-badge.info {
+    background-color: #5bc0de !important;
+}
+
+.timeline-title {
+    margin-top: 0;
+    color: inherit;
+}
+
+.timeline-body > p,
+.timeline-body > ul {
+    margin-bottom: 0;
+}
+
+    .timeline-body > p + p {
+        margin-top: 5px;
+    }
+
+@media (max-width: 767px) {
+    ul.timeline:before {
+        left: 40px;
+    }
+
+    ul.timeline > li > .timeline-panel {
+        width: calc(100% - 90px);
+        width: -moz-calc(100% - 90px);
+        width: -webkit-calc(100% - 90px);
+    }
+
+    ul.timeline > li > .timeline-badge {
+        left: 15px;
+        margin-left: 0;
+        top: 16px;
+    }
+
+    ul.timeline > li > .timeline-panel {
+        float: right;
+    }
+
+        ul.timeline > li > .timeline-panel:before {
+            border-left-width: 0;
+            border-right-width: 15px;
+            left: -15px;
+            right: auto;
+        }
+
+        ul.timeline > li > .timeline-panel:after {
+            border-left-width: 0;
+            border-right-width: 14px;
+            left: -14px;
+            right: auto;
+        }
+}
+
+/*>>>>>>>>>>>>>>>>>>>>END OF TIMELINE>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+/*>>>>>>>>>>>>>>>>>>>>START OF SKILLS LIST BOX>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+.content {
+    width: 280px;
+    margin: 0;
+    position: relative;
+    float: left;
+    font-size: 18px;
+    line-height: 2em;
+    padding: 30px 0 30px;
+}
+
+.col {
+    width: 322px;
+}
+
+.skill {
+    list-style: none;
+    padding-top: 30px;
+}
+
+.skill li {
+    margin-bottom: 70px;
+    background: #e5e4e4;
+    height: 5px;
+    border-radius: 3px;
+    border-left: 1px solid #AAAAAA;
+    border-top: 1px solid #AAAAAA;
+    border-right: 1px solid #AAAAAA;
+    border-bottom: 1px solid #AAAAAA;
+}
+
+.skill li em {
+    position: relative;
+    top: -30px;
+}
+
+.expand {
+    height: 4px;
+    margin: 0px 0;
+    background: #4aec44;
+    position: absolute;
+    box-shadow: 0px 0px 6px 1px rgba(rgb(49,108,61));
+}
+
+.python {
+    width: 25%;
+    -moz-animation: python 2s ease-out;
+    -webkit-animation: python 2s ease-out;
+}
+
+.java {
+    width: 15%;
+    -moz-animation: java 2s ease-out;
+    -webkit-animation: java 2s ease-out;
+}
+
+.istqb {
+    width: 90%;
+    -moz-animation: istqb 2s ease-out;
+    -webkit-animation: istqb 2s ease-out;
+}
+
+.selenium {
+    width: 40%;
+    -moz-animation: selenium 2s ease-out;
+    -webkit-animation: selenium 2s ease-out;
+}
+
+.git {
+    width: 30%;
+    -moz-animation: git 2s ease-out;
+    -webkit-animation: git 2s ease-out;
+}
+
+.scrum {
+    width: 75%;
+    -moz-animation: scrum 2s ease-out;
+    -webkit-animation: scrum 2s ease-out;
+}
+
+.marketing_campaigns {
+    width: 70%;
+    -moz-animation: marketing_campaigns 2s ease-out;
+    -webkit-animation: marketing_campaigns 2s ease-out;
+}
+
+.brand_building {
+    width: 75%;
+    -moz-animation: brand_building 2s ease-out;
+    -webkit-animation: brand_building 2s ease-out;
+}
+
+.google_adwords {
+    width: 40%;
+    -moz-animation: google_adwords 2s ease-out;
+    -webkit-animation: google_adwords 2s ease-out;
+}
+
+.mail_marketing {
+    width: 70%;
+    -moz-animation: mail_marketing 2s ease-out;
+    -webkit-animation: mail_marketing 2s ease-out;
+}
+
+.social_media {
+    width: 80%;
+    -moz-animation: social_media 2s ease-out;
+    -webkit-animation: social_media 2s ease-out;
+}
+
+.seosem {
+    width: 60%;
+    -moz-animation: seosem 2s ease-out;
+    -webkit-animation: seosem 2s ease-out;
+}
+
+.payments {
+    width: 60%;
+    -moz-animation: payments 2s ease-out;
+    -webkit-animation: payments 2s ease-out;
+}
+
+.allegro_ebay {
+    width: 90%;
+    -moz-animation: allegro_ebay 2s ease-out;
+    -webkit-animation: allegro_ebay 2s ease-out;
+}
+
+.html5 {
+    width: 40%;
+    -moz-animation: html5 2s ease-out;
+    -webkit-animation: html5 2s ease-out;
+}
+
+.css3 {
+    width: 25%;
+    -moz-animation: css3 2s ease-out;
+    -webkit-animation: css3 2s ease-out;
+}
+
+.jquery {
+    width: 20%;
+    -moz-animation: jquery 2s ease-out;
+    -webkit-animation: jquery 2s ease-out;
+}
+
+.bootstrap_skill {
+    width: 30%;
+    -moz-animation: bootstrap_skill 2s ease-out;
+    -webkit-animation: bootstrap_skill 2s ease-out;
+}
+
+.javascript {
+    width: 10%;
+    -moz-animation: javascript 2s ease-out;
+    -webkit-animation: javascript 2s ease-out;
+}
+
+@-moz-keyframes python {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 25%;
+    };
+}
+
+@-moz-keyframes java {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 15%;
+    };
+}
+
+@-moz-keyframes istqb {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 90%;
+    };
+}
+
+@-moz-keyframes selenium {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 40%;
+    };
+}
+
+@-moz-keyframes git {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 30%;
+    };
+}
+
+@-moz-keyframes scrum {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 75%;
+    };
+}
+
+@-moz-keyframes marketing_campaigns {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 70%;
+    };
+}
+
+@-moz-keyframes brand_building {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 75%;
+    };
+}
+
+@-moz-keyframes google_adwords {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 40%;
+    };
+}
+
+@-moz-keyframes mail_marketing {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 70%;
+    };
+}
+
+@-moz-keyframes social_media {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 80%;
+    };
+}
+
+@-moz-keyframes seosem {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 60%;
+    };
+}
+
+@-moz-keyframes payments {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 60%;
+    };
+}
+
+@-moz-keyframes allegro_ebay {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 90%;
+    };
+}
+
+@-moz-keyframes html5 {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 40%;
+    };
+}
+
+@-moz-keyframes css3 {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 25%;
+    };
+}
+
+@-moz-keyframes jquery {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 20%;
+    };
+}
+
+@-moz-keyframes bootstrap_skill {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 30%;
+    };
+}
+
+@-moz-keyframes javascript {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 10%;
+    };
+}
+
+
+
+
+
+@-webkit-keyframes python {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 25%;
+    };
+}
+
+@-webkit-keyframes java {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 12%;
+    };
+}
+
+@-webkit-keyframes istqb {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 90%;
+    };
+}
+
+@-webkit-keyframes selenium {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 40%;
+    };
+}
+
+@-webkit-keyframes git {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 20%;
+    };
+}
+
+@-webkit-keyframes scrum {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 75%;
+    };
+}
+
+@-webkit-keyframes marketing_campaigns {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 70%;
+    };
+}
+
+@-webkit-keyframes brand_building {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 75%;
+    };
+}
+
+@-webkit-keyframes google_adwords {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 40%;
+    };
+}
+
+@-webkit-keyframes mail_marketing {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 70%;
+    };
+}
+
+@-webkit-keyframes social_media {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 80%;
+    };
+}
+
+@-webkit-keyframes seosem {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 60%;
+    };
+}
+
+@-webkit-keyframes payments {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 60%;
+    };
+}
+
+@-webkit-keyframes allegro_ebay {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 90%;
+    };
+}
+
+@-webkit-keyframes html5 {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 40%;
+    };
+}
+
+@-webkit-keyframes css3 {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 90%;
+    };
+}
+
+@-webkit-keyframes jquery {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 50%;
+    };
+}
+
+@-webkit-keyframes bootstrap_skill {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 10%;
+    };
+}
+
+@-webkit-keyframes javascript {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 100%;
+    };
+}
+
+/*>>>>>>>>>>>>>>>>>>>>END OF SKILLS LIST BOX>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
